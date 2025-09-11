@@ -1,0 +1,101 @@
+ag,ai,article_id,coating_desc,defect_desc,finish,grade,material,quality_choice,reserved,rm,rp02,sup1_quantity,sup1_weight_kg,sup2_quantity,sup2_weight_kg,thickness_mm,width_mm
+16.11,0.0054,,,Längs- oder Querisse,gebeizt und geglüht,C200S,,3rd,,606.2,333.6,,13983.0,,,2.77,1100.0
+16.11,0.0046,,,Längs- oder Querisse,ungebeizt,C300S,,3rd,,,717.7,,13047.0,,,2.65,1075.0
+,0.0061,,,Kantenfehler - FS-Kantenrisse,gebeizt und geglüht,C100S,,3rd,,,368.9,10.84,14155.0,,,2.2,1100.0
+,0.0062,,,Längs- oder Querisse,gebeizt,C100S,,2nd,,601.7,368.9,22.87,11381.0,,,2.86,1100.0
+,0.0041,,,Sollmasse (Gewicht) unterschritten,ungebeizt,C300S,,1st,,1213.0,,22.87,10072.0,,,2.88,1050.0
+,0.0059,,,Längs- oder Querisse,gebeizt,C200S,,2nd,,606.2,,,12863.0,,,2.51,1000.0
+15.05,0.0066,,,Sollmasse (Gewicht) unterschritten,gebeizt,C100S,,1st,,606.2,,10.84,8936.0,,,2.69,1150.0
+15.05,0.0042,,,Sollmasse (Gewicht) unterschritten,gebeizt und geglüht,C300S,,2nd,,601.7,,22.87,9810.0,,,2.98,1000.0
+,0.0064,,,Längs- oder Querisse,gebeizt,C200S,,3rd,,601.7,368.9,22.87,5491.0,,,2.03,1050.0
+15.05,0.0067,,,Längs- oder Querisse,gebeizt,C300S,,3rd,,606.2,368.9,,11415.0,,,2.54,1050.0
+,0.0061,,,Kantenfehler - FS-Kantenrisse,gebeizt und geglüht,C100S,,2nd,,,333.6,,14758.0,,,2.31,1050.0
+15.05,0.0047,,,Sollmasse (Gewicht) unterschritten,ungebeizt,C100S,,1st,,606.2,717.7,,13400.0,,,2.55,1050.0
+16.11,0.005,,,Längs- oder Querisse,gebeizt und geglüht,C100S,,3rd,,,368.9,25.46,12787.0,,,2.52,1100.0
+,0.0053,,,Sollmasse (Gewicht) unterschritten,ungebeizt,C200S,,2nd,,601.7,368.9,22.87,8391.0,,,2.46,1000.0
+6.858,0.0062,,,Längs- oder Querisse,gebeizt und geglüht,C100S,,3rd,,601.7,,10.84,10409.0,,,2.74,1100.0
+6.858,0.0061,,,Sollmasse (Gewicht) unterschritten,gebeizt,C100S,,2nd,,601.7,,,5951.0,,,2.27,1150.0
+15.05,0.0068,,,Kantenfehler - FS-Kantenrisse,ungebeizt,C300S,,2nd,,601.7,333.6,22.87,8240.0,,,2.08,1150.0
+16.11,0.0066,,,Längs- oder Querisse,gebeizt und geglüht,C300S,,1st,,606.2,368.9,22.87,14139.0,,,2.29,1050.0
+,0.0064,,,Längs- oder Querisse,ungebeizt,C100S,,3rd,,1213.0,333.6,10.84,7304.0,,,2.19,1050.0
+16.11,0.0055,,,Kantenfehler - FS-Kantenrisse,gebeizt und geglüht,C100S,,2nd,,1213.0,368.9,22.87,13518.0,,,2.14,1000.0
+6.858,0.0068,,,Längs- oder Querisse,gebeizt,C100S,,1st,,1213.0,717.7,10.84,12010.0,,,2.84,1150.0
+16.11,0.0051,,,Sollmasse (Gewicht) unterschritten,gebeizt und geglüht,C200S,,2nd,,1213.0,717.7,,6665.0,,,2.88,1050.0
+15.05,0.0041,,,Längs- oder Querisse,gebeizt und geglüht,C100S,,1st,,606.2,,,14839.0,,,2.51,1050.0
+,0.0051,,,Längs- oder Querisse,gebeizt,C200S,,3rd,,606.2,368.9,22.87,10959.0,,,2.22,1050.0
+16.11,0.0057,,,Sollmasse (Gewicht) unterschritten,ungebeizt,C200S,,2nd,,606.2,333.6,,14688.0,,,2.83,1100.0
+16.11,0.0065,,,Längs- oder Querisse,gebeizt,C300S,,3rd,,601.7,717.7,25.46,5979.0,,,2.32,1150.0
+15.05,0.0059,,,Kantenfehler - FS-Kantenrisse,gebeizt und geglüht,C100S,,3rd,,1213.0,333.6,10.84,10499.0,,,2.48,1050.0
+6.858,0.0042,,,Sollmasse (Gewicht) unterschritten,gebeizt und geglüht,C300S,,2nd,,1213.0,368.9,25.46,10723.0,,,2.21,1100.0
+6.858,0.0049,,,Längs- oder Querisse,ungebeizt,C100S,,2nd,,,368.9,10.84,10262.0,,,2.75,1100.0
+,0.0069,,,Kantenfehler - FS-Kantenrisse,gebeizt,C200S,,3rd,,601.7,,,8118.0,,,2.75,1075.0
+,0.0053,,,Sollmasse (Gewicht) unterschritten,ungebeizt,C100S,,3rd,,606.2,,10.84,5011.0,,,2.89,1075.0
+6.858,0.0048,,,Sollmasse (Gewicht) unterschritten,gebeizt und geglüht,C100S,,1st,,601.7,333.6,25.46,8410.0,,,2.32,1150.0
+15.05,0.0041,,,Längs- oder Querisse,gebeizt,C300S,,3rd,,601.7,,25.46,5124.0,,,2.53,1100.0
+16.11,0.0054,,,Sollmasse (Gewicht) unterschritten,gebeizt und geglüht,C100S,,2nd,,1213.0,368.9,25.46,12071.0,,,2.18,1075.0
+16.11,0.0045,,,Kantenfehler - FS-Kantenrisse,gebeizt,C100S,,2nd,,606.2,368.9,10.84,13321.0,,,2.75,1000.0
+,0.0047,,,Längs- oder Querisse,ungebeizt,C300S,,2nd,,1213.0,717.7,,7968.0,,,2.43,1000.0
+16.11,0.0054,,,Kantenfehler - FS-Kantenrisse,gebeizt,C300S,,1st,,,717.7,22.87,12702.0,,,2.82,1050.0
+15.05,0.0058,,,Kantenfehler - FS-Kantenrisse,gebeizt und geglüht,C200S,,1st,,601.7,717.7,,5915.0,,,2.8,1050.0
+16.11,0.0067,,,Längs- oder Querisse,gebeizt,C100S,,1st,,601.7,333.6,22.87,8047.0,,,2.01,1050.0
+,0.0059,,,Längs- oder Querisse,ungebeizt,C300S,,2nd,,,,25.46,7772.0,,,2.3,1000.0
+15.05,0.007,,,Längs- oder Querisse,ungebeizt,C200S,,3rd,,,368.9,10.84,9995.0,,,2.12,1075.0
+16.11,0.0063,,,Kantenfehler - FS-Kantenrisse,gebeizt und geglüht,C100S,,1st,,606.2,368.9,10.84,9774.0,,,2.37,1075.0
+16.11,0.0051,,,Sollmasse (Gewicht) unterschritten,gebeizt und geglüht,C100S,,2nd,,606.2,368.9,22.87,11360.0,,,2.43,1150.0
+15.05,0.0041,,,Längs- oder Querisse,ungebeizt,C100S,,3rd,,1213.0,333.6,22.87,8261.0,,,2.08,1100.0
+16.11,0.0058,,,Kantenfehler - FS-Kantenrisse,gebeizt und geglüht,C100S,,3rd,,1213.0,368.9,22.87,9110.0,,,2.75,1050.0
+,0.0055,,,Längs- oder Querisse,ungebeizt,C300S,,2nd,,606.2,,10.84,13667.0,,,2.72,1150.0
+6.858,0.0045,,,Längs- oder Querisse,gebeizt und geglüht,C100S,,3rd,,606.2,717.7,22.87,6947.0,,,2.74,1000.0
+,0.0042,,,Sollmasse (Gewicht) unterschritten,gebeizt,C100S,,3rd,,1213.0,717.7,,8786.0,,,2.48,1150.0
+15.05,0.0046,,,Sollmasse (Gewicht) unterschritten,gebeizt,C300S,,1st,,1213.0,368.9,25.46,14311.0,,,2.48,1150.0
+15.05,0.0052,,,Sollmasse (Gewicht) unterschritten,gebeizt,C100S,,1st,,,,,8048.0,,,2.79,1050.0
+,,23048203.0,oiled,,,,HDC,,not_reserved,,,,,52.0,24469.0,,
+,,23040547.0,oiled,,,,S235JR,,not_reserved,,,,,41.0,16984.0,,
+,,23046057.0,painted,,,,S235JR,,not_reserved,,,,,28.0,9162.0,,
+,,23041966.0,oiled,,,,DX51D +AZ150,,vanilla,,,,,66.0,12119.0,,
+,,23043884.0,painted,,,,HDC,,not_reserved,,,,,26.0,17260.0,,
+,,23048868.0,oiled,,,,DX51D +Z140,,vanilla,,,,,60.0,23258.0,,
+,,23046459.0,oiled,,,,HDC,,vanilla,,,,,93.0,20994.0,,
+,,23043788.0,oiled,,,,HDC,,not_reserved,,,,,73.0,22325.0,,
+,,23044935.0,oiled,,,,S235JR,,not_reserved,,,,,60.0,10571.0,,
+,,23049059.0,oiled,,,,DX51D +Z140,,vanilla,,,,,95.0,12999.0,,
+,,23047860.0,oiled,,,,HDC,,not_reserved,,,,,59.0,15862.0,,
+,,23047939.0,painted,,,,DX51D +AZ150,,not_reserved,,,,,72.0,9217.0,,
+,,23047348.0,oiled,,,,S235JR,,not_reserved,,,,,36.0,15881.0,,
+,,23045961.0,painted,,,,HDC,,vanilla,,,,,30.0,23915.0,,
+,,23042649.0,painted,,,,S235JR,,not_reserved,,,,,71.0,15741.0,,
+,,23048176.0,oiled,,,,S235JR,,vanilla,,,,,54.0,15717.0,,
+,,23043667.0,painted,,,,S235JR,,not_reserved,,,,,10.0,23967.0,,
+,,23046190.0,oiled,,,,HDC,,vanilla,,,,,58.0,21346.0,,
+,,23044291.0,oiled,,,,S235JR,,not_reserved,,,,,22.0,10389.0,,
+,,23046841.0,oiled,,,,S235JR,,vanilla,,,,,94.0,18501.0,,
+,,23041008.0,oiled,,,,S235JR,,vanilla,,,,,33.0,14277.0,,
+,,23041560.0,oiled,,,,S235JR,,not_reserved,,,,,98.0,24951.0,,
+,,23043638.0,painted,,,,HDC,,not_reserved,,,,,12.0,15121.0,,
+,,23041902.0,oiled,,,,DX51D +AZ150,,not_reserved,,,,,72.0,17933.0,,
+,,23049627.0,oiled,,,,DX51D +AZ150,,vanilla,,,,,82.0,20304.0,,
+,,23044610.0,oiled,,,,HDC,,vanilla,,,,,96.0,20027.0,,
+,,23049106.0,oiled,,,,DX51D +Z140,,not_reserved,,,,,34.0,23131.0,,
+,,23048028.0,painted,,,,S235JR,,not_reserved,,,,,29.0,6113.0,,
+,,23045099.0,oiled,,,,DX51D +AZ150,,not_reserved,,,,,78.0,9037.0,,
+,,23046741.0,oiled,,,,S235JR,,vanilla,,,,,31.0,24331.0,,
+,,23047239.0,painted,,,,DX51D +Z140,,vanilla,,,,,21.0,11898.0,,
+,,23049907.0,oiled,,,,DX51D +AZ150,,not_reserved,,,,,33.0,21609.0,,
+,,23044447.0,painted,,,,S235JR,,vanilla,,,,,67.0,19165.0,,
+,,23047489.0,oiled,,,,HDC,,not_reserved,,,,,64.0,18716.0,,
+,,23040273.0,oiled,,,,S235JR,,vanilla,,,,,33.0,7025.0,,
+,,23040905.0,painted,,,,DX51D +Z140,,vanilla,,,,,76.0,14796.0,,
+,,23043967.0,oiled,,,,DX51D +Z140,,not_reserved,,,,,62.0,21149.0,,
+,,23045724.0,painted,,,,S235JR,,vanilla,,,,,68.0,16393.0,,
+,,23049672.0,oiled,,,,HDC,,vanilla,,,,,93.0,21321.0,,
+,,23049617.0,oiled,,,,DX51D +AZ150,,not_reserved,,,,,62.0,22395.0,,
+,,23043836.0,painted,,,,DX51D +AZ150,,vanilla,,,,,64.0,9355.0,,
+,,23049333.0,painted,,,,S235JR,,not_reserved,,,,,78.0,10143.0,,
+,,23041897.0,oiled,,,,HDC,,vanilla,,,,,62.0,17001.0,,
+,,23040756.0,oiled,,,,S235JR,,not_reserved,,,,,50.0,6034.0,,
+,,23041086.0,oiled,,,,DX51D +AZ150,,not_reserved,,,,,95.0,15230.0,,
+,,23047543.0,oiled,,,,DX51D +Z140,,not_reserved,,,,,96.0,9940.0,,
+,,23045292.0,painted,,,,DX51D +AZ150,,not_reserved,,,,,51.0,23884.0,,
+,,23047408.0,oiled,,,,S235JR,,vanilla,,,,,12.0,5302.0,,
+,,23043348.0,oiled,,,,DX51D +Z140,,vanilla,,,,,69.0,16927.0,,
+,,23043386.0,oiled,,,,HDC,,vanilla,,,,,75.0,11191.0,,

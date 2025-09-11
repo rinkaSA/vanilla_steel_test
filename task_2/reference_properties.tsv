@@ -1,0 +1,176 @@
+Grade/Material	UNS_No	Steel_No	Standards	Carbon (C)	Manganese (Mn)	Silicon (Si)	Sulfur (S)	Phosphorus (P)	Chromium (Cr)	Nickel (Ni)	Molybdenum (Mo)	Vanadium (V)	Tungsten (W)	Cobalt (Co)	Copper (Cu)	Aluminum (Al)	Titanium (Ti)	Niobium (Nb)	Boron (B)	Nitrogen (N)	Tensile strength (Rm)	Yield strength (Re or Rp0.2)	Elongation (A%)	Reduction of area (Z%)	Hardness (HB, HV, HRC)	Impact toughness (Charpy V-notch)	Fatigue limit	Creep resistance	Source_Pages	Application	Category	Nb + V + Ti (Others)	Coating
+S235JR			EN 10025-2:2019	≤0.17	≤1.40	≤0.40	≤0.035	≤0.035												≤0.012	360-510 MPa	≥235 MPa	≥26%			27J at 20°C			Standard Specifications	General structural steels	Structural Steel		
+S275JR			EN 10025-2:2019	≤0.21	≤1.50	≤0.40	≤0.035	≤0.035												≤0.012	410-560 MPa	≥275 MPa	≥23%			27J at 20°C			Standard Specifications	General structural steels	Structural Steel		
+S355JR			EN 10025-2:2019	≤0.24	≤1.60	≤0.55	≤0.035	≤0.035												≤0.012	470-630 MPa	≥355 MPa	≥22%			27J at 20°C			Standard Specifications	General structural steels	Structural Steel		
+S420M			EN 10025-3:2019	≤0.20	1.00-1.70	≤0.50	≤0.025	≤0.030	≤0.30	≤0.50	≤0.10									≤0.015	520-680 MPa	≥420 MPa	≥19%			27J at -20°C			Standard Specifications	Thermomechanically rolled steels	High Strength Steel		
+S460M			EN 10025-3:2019	≤0.20	1.00-1.70	≤0.50	≤0.025	≤0.030	≤0.30	≤0.50	≤0.10									≤0.015	540-720 MPa	≥460 MPa	≥17%			27J at -20°C			Standard Specifications	Thermomechanically rolled steels	High Strength Steel		
+S500MC			EN 10149-2:2013	≤0.12	≤1.70	≤0.50	≤0.015	≤0.025				≤0.20				≥0.015	≤0.15	≤0.09			550-700 MPa	≥500 MPa	≥14%						Standard Specifications	Cold forming, automotive	Microalloyed Steel	≤0.22	
+S700MC			EN 10149-2:2013	≤0.12	≤2.10	≤0.60	≤0.015	≤0.025				≤0.20				≥0.015	≤0.15	≤0.09			750-950 MPa	≥700 MPa	≥12%						Standard Specifications	Cold forming, automotive, high strength applications	Microalloyed Steel	≤0.22	
+S960MC			EN 10149-2:2013	≤0.20	≤2.10	≤0.60	≤0.015	≤0.025	≤0.50	≤1.00	≤0.30	≤0.20				≥0.015	≤0.15	≤0.09	≤0.005		980-1150 MPa	≥960 MPa	≥10%						Standard Specifications	Ultra high strength applications, automotive	Ultra High Strength Steel	≤0.22	
+DC01			EN 10130:2006	≤0.12	≤0.60		≤0.045	≤0.045													270-410 MPa	≤280 MPa	≥28%						Standard Specifications	Cold forming, deep drawing	Cold Rolled Steel		
+DC03			EN 10130:2006	≤0.10	≤0.45		≤0.030	≤0.030													270-370 MPa	≤210 MPa	≥34%						Standard Specifications	Deep drawing, complex forming	Cold Rolled Steel		
+DC04			EN 10130:2006	≤0.08	≤0.40		≤0.030	≤0.030													270-350 MPa	≤210 MPa	≥38%						Standard Specifications	Extra deep drawing	Cold Rolled Steel		
+DD11			EN 10111:2008	≤0.12	≤0.60		≤0.045	≤0.045													270-410 MPa	≤380 MPa	≥28%						Standard Specifications	General cold forming	Cold Rolled Steel		
+DX51D			EN 10346:2015	≤0.12	≤0.60		≤0.045	≤0.120								≥0.010					270-500 MPa	≤350 MPa	≥22%						Standard Specifications	Galvanized steel for forming	Galvanized Steel		Hot-dip galvanized
+DX52D			EN 10346:2015	≤0.10	≤0.45		≤0.035	≤0.100								≥0.010					270-420 MPa	≤300 MPa	≥26%						Standard Specifications	Galvanized steel for deep drawing	Galvanized Steel		Hot-dip galvanized
+DX53D			EN 10346:2015	≤0.08	≤0.40		≤0.030	≤0.080								≥0.010					270-380 MPa	≤260 MPa	≥30%						Standard Specifications	Galvanized steel for extra deep drawing	Galvanized Steel		Hot-dip galvanized
+S250GD			EN 10346:2015	≤0.25	≤1.20		≤0.045	≤0.120								≥0.010					330-510 MPa	≥250 MPa	≥19%						Standard Specifications	Structural galvanized steel	Galvanized Steel		Hot-dip galvanized
+S350GD			EN 10346:2015	≤0.25	≤1.50		≤0.045	≤0.120								≥0.010					420-580 MPa	≥350 MPa	≥16%						Standard Specifications	High strength galvanized steel	Galvanized Steel		Hot-dip galvanized
+DP600			Automotive specification	0.06-0.12	1.50-2.50	0.10-0.50	≤0.015	≤0.080	≤0.40		≤0.20					0.020-0.070					590-710 MPa	≥340 MPa	≥30%						Standard Specifications	Automotive body panels, crash structures	Dual Phase Steel		
+DP780			Automotive specification	0.07-0.15	1.80-2.50	0.15-0.50	≤0.015	≤0.080	≤0.50		≤0.25					0.020-0.070					780-980 MPa	≥420 MPa	≥17%						Standard Specifications	Automotive structural components	Dual Phase Steel		
+DP980			Automotive specification	0.10-0.17	2.00-2.80	0.20-0.60	≤0.015	≤0.080	≤0.60		≤0.30					0.020-0.070					980-1180 MPa	≥550 MPa	≥12%						Standard Specifications	Automotive safety components	Dual Phase Steel		
+TRIP780			Automotive specification	0.15-0.25	1.50-2.00	1.20-1.80	≤0.015	≤0.080								0.020-0.070					780-980 MPa	≥350 MPa	≥26%						Standard Specifications	Automotive crash energy absorption	TRIP Steel		
+CP800			Automotive specification	0.08-0.15	1.50-2.50	0.30-0.80	≤0.015	≤0.080								0.020-0.070	0.010-0.050	0.015-0.050			800-950 MPa	≥500 MPa	≥12%						Standard Specifications	Automotive structural parts	Complex Phase Steel		
+HC420LA			Automotive specification	≤0.12	0.70-1.60	≤0.50	≤0.015	≤0.025				≤0.20				0.015-0.070	≤0.15	≤0.09			480-620 MPa	≥420 MPa	≥23%						Standard Specifications	Automotive high strength low alloy	HSLA Steel		
+CR240LA			Automotive specification	≤0.12	≤0.70	≤0.50	≤0.015	≤0.025								0.015-0.070					340-420 MPa	≥240 MPa	≥29%						Standard Specifications	Automotive cold rolled high strength	HSLA Steel		
+Hardox 400			SSAB specification	≤0.32	≤1.60	≤0.70	≤0.010	≤0.025	≤1.40	≤1.50	≤0.60								≤0.005		1180-1400 MPa	≥1000 MPa			370-430 HB				Standard Specifications	Wear resistant steel	Wear Resistant Steel		
+Hardox 500			SSAB specification	≤0.38	≤1.60	≤0.70	≤0.010	≤0.025	≤1.40	≤2.50	≤0.60								≤0.005		1400-1600 MPa	≥1300 MPa			470-530 HB				Standard Specifications	High wear resistant steel	Wear Resistant Steel		
+1.2379			EN ISO 4957:2018	1.45-1.70	≤0.60	≤0.60	≤0.030	≤0.030	11.00-13.00		0.70-1.20	0.70-1.20									2100-2400 MPa				60-62 HRC				Standard Specifications	Cold work tool steel	Tool Steel		
+1.2714			EN ISO 4957:2018	0.55-0.65	0.60-1.00	0.80-1.20	≤0.030	≤0.030	0.90-1.30	1.40-1.80	0.15-0.30										1800-2200 MPa				54-58 HRC				Standard Specifications	Shock resistant tool steel	Tool Steel		
+DC06			EN 10130:2006	≤0.02	≤0.25		≤0.020	≤0.020													270-330 MPa	≤180 MPa	≥42%						Standard Specifications	Ultra deep drawing	Cold Rolled Steel		
+DD13			EN 10111:2008	≤0.08	≤0.40		≤0.030	≤0.030													270-350 MPa	≤280 MPa	≥38%						Standard Specifications	Deep drawing quality	Cold Rolled Steel		
+DD14			EN 10111:2008	≤0.08	≤0.40		≤0.025	≤0.025													270-350 MPa	≤240 MPa	≥38%						Standard Specifications	Extra deep drawing quality	Cold Rolled Steel		
+DX54			EN 10346:2015	≤0.06	≤0.35		≤0.025	≤0.060								≥0.010					270-350 MPa	≤220 MPa	≥36%						Standard Specifications	Galvanized ultra deep drawing	Galvanized Steel		Hot-dip galvanized
+S55GD			EN 10346:2015	≤0.25	≤1.60		≤0.045	≤0.120								≥0.010					500-680 MPa	≥550 MPa	≥12%						Standard Specifications	High strength galvanized steel	Galvanized Steel		Hot-dip galvanized
+S355			EN 10025-2:2019	≤0.24	≤1.60	≤0.55	≤0.035	≤0.035												≤0.012	470-630 MPa	≥355 MPa	≥22%						Standard Specifications	General structural steel	Structural Steel		
+HC260			Automotive specification	≤0.10	0.40-0.80	≤0.50	≤0.015	≤0.025								0.015-0.070					350-450 MPa	≥260 MPa	≥27%						Standard Specifications	Automotive high strength	HSLA Steel		
+HC700			Automotive specification	≤0.18	1.20-2.00	≤0.60	≤0.015	≤0.025				≤0.20				0.015-0.070	≤0.15	≤0.09			750-950 MPa	≥700 MPa	≥12%						Standard Specifications	Automotive ultra high strength	UHSS Steel		
+HC660XD			Automotive specification	≤0.18	1.00-2.00	≤0.60	≤0.015	≤0.025								0.015-0.070					700-900 MPa	≥660 MPa	≥14%						Standard Specifications	Automotive extra deep drawing high strength	HSLA Steel		
+CR3			Automotive specification	≤0.12	≤0.60		≤0.045	≤0.045													270-410 MPa	≤280 MPa	≥28%						Standard Specifications	Cold rolled forming	Cold Rolled Steel		
+CR240			Automotive specification	≤0.12	≤0.70	≤0.50	≤0.015	≤0.025													340-420 MPa	≥240 MPa	≥29%						Standard Specifications	Cold rolled high strength	HSLA Steel		
+CR340			Automotive specification	≤0.12	0.70-1.20	≤0.50	≤0.015	≤0.025								0.015-0.070					410-510 MPa	≥340 MPa	≥24%						Standard Specifications	Cold rolled high strength	HSLA Steel		
+CR340LA			Automotive specification	≤0.12	0.70-1.20	≤0.50	≤0.015	≤0.025								0.015-0.070					410-510 MPa	≥340 MPa	≥26%						Standard Specifications	Cold rolled high strength low alloy	HSLA Steel		
+1.2083			EN ISO 4957:2018	0.95-1.20	≤1.00	≤1.00	≤0.030	≤0.030	12.00-14.00		≤0.30	≤0.30									1900-2300 MPa				58-62 HRC				Standard Specifications	Corrosion resistant tool steel	Tool Steel		
+46SiCrMo6			EN 10083-3:2006	0.42-0.50	0.50-0.80	1.20-1.60	≤0.035	≤0.025	0.90-1.20		0.15-0.30										1200-1400 MPa	≥900 MPa	≥10%		36-43 HRC				Standard Specifications	Quenched and tempered steel	Alloy Steel		
+304			ASTM A240; EN 10088-2:2014	≤0.08	≤2.00	≤0.75	≤0.030	≤0.045	17.5-19.5	8.0-10.5										≤0.10	515-620 MPa	≥205 MPa	≥40%		≤200 HB				Standard Specifications	General purpose austenitic stainless steel	Stainless Steel		
+316			ASTM A240; EN 10088-2:2014	≤0.08	≤2.00	≤0.75	≤0.030	≤0.045	16.5-18.5	10.0-13.0	2.0-2.5									≤0.10	515-620 MPa	≥205 MPa	≥40%		≤200 HB				Standard Specifications	Molybdenum bearing austenitic stainless steel	Stainless Steel		
+321			ASTM A240; EN 10088-2:2014	≤0.08	≤2.00	≤0.75	≤0.030	≤0.045	17.0-19.0	9.0-12.0							5×C-0.70			≤0.10	515-620 MPa	≥205 MPa	≥40%		≤200 HB				Standard Specifications	Titanium stabilized austenitic stainless steel	Stainless Steel		
+430			ASTM A240; EN 10088-2:2014	≤0.12	≤1.00	≤0.75	≤0.030	≤0.040	16.0-18.0											≤0.11	450-600 MPa	≥205 MPa	≥22%		≤200 HB				Standard Specifications	General purpose ferritic stainless steel	Stainless Steel		
+410			ASTM A240; EN 10088-3:2014	≤0.15	≤1.00	≤0.75	≤0.030	≤0.040	11.5-13.5												450-650 MPa	≥205 MPa	≥20%		≤200 HB (annealed)				Standard Specifications	General purpose martensitic stainless steel	Stainless Steel		
+420			ASTM A240; EN 10088-3:2014	≥0.15	≤1.00	≤1.00	≤0.030	≤0.040	12.0-14.0												700-850 MPa	≥400 MPa	≥15%		≤250 HB (annealed)				Standard Specifications	Hardenable martensitic stainless steel	Stainless Steel		
+17-4PH			ASTM A564; AMS 5643	≤0.07	≤1.00	≤1.00	≤0.030	≤0.040	15.0-17.5	3.0-5.0					3.0-5.0			0.15-0.45			1170-1310 MPa	≥1070 MPa	≥10%		35-45 HRC				Standard Specifications	Precipitation hardening stainless steel	Stainless Steel		
+2205			ASTM A240; EN 10088-2:2014	≤0.030	≤2.00	≤1.00	≤0.020	≤0.030	21.0-23.0	4.5-6.5	2.5-3.5									0.08-0.20	620-880 MPa	≥450 MPa	≥25%		≤290 HB				Standard Specifications	Duplex stainless steel	Stainless Steel		
+1.2343			EN ISO 4957:2018	0.37-0.42	0.30-0.50	0.80-1.20	≤0.030	≤0.030	4.80-5.50		1.10-1.50	0.80-1.20									1900-2300 MPa				54-58 HRC				Standard Specifications	Hot work tool steel (H13 equivalent)	Tool Steel		
+42CrMo4			EN 10083-3:2006	0.38-0.45	0.60-0.90	≤0.40	≤0.035	≤0.025	0.90-1.20		0.15-0.30										1100-1300 MPa	≥900 MPa	≥10%		32-39 HRC	≥35J at -20°C			Standard Specifications	Quenched and tempered alloy steel	Alloy Steel		
+42CrMo4+QT			EN 10083-3:2006	0.38-0.45	0.60-0.90	≤0.40	≤0.035	≤0.025	0.90-1.20		0.15-0.30										1100-1300 MPa	≥900 MPa	≥10%		32-39 HRC	≥35J at -20°C			Standard Specifications	Quenched and tempered alloy steel	Alloy Steel		
+42CrMoS4			EN 10083-3:2006	0.38-0.45	0.60-0.90	≤0.40	0.020-0.040	≤0.025	0.90-1.20		0.15-0.30										1100-1300 MPa	≥900 MPa	≥10%		32-39 HRC				Standard Specifications	Free machining quenched and tempered steel	Alloy Steel		
+34CrNiMo6+QT			EN 10083-3:2006	0.30-0.38	0.50-0.80	≤0.40	≤0.035	≤0.025	1.30-1.70	1.30-1.70	0.15-0.30										1200-1400 MPa	≥1000 MPa	≥10%		36-43 HRC	≥35J at -20°C			Standard Specifications	High strength quenched and tempered steel	Alloy Steel		
+22MnB5			EN 10083-3:2006	0.19-0.25	1.10-1.40	0.15-0.35	≤0.010	≤0.025	0.14-0.26							0.020-0.060	0.020-0.050		0.0008-0.0050		1400-1650 MPa	≥1000 MPa	≥5%		40-47 HRC				Standard Specifications	Press hardening steel for automotive	Press Hardening Steel		
+26MnB5			Automotive specification	0.23-0.29	1.10-1.40	0.15-0.35	≤0.010	≤0.025	0.14-0.26							0.020-0.060	0.020-0.050		0.0008-0.0050		1450-1700 MPa	≥1050 MPa	≥5%		42-49 HRC				Standard Specifications	Press hardening steel for automotive	Press Hardening Steel		
+26Mnb5			Automotive specification	0.23-0.29	1.10-1.40	0.15-0.35	≤0.010	≤0.025	0.14-0.26							0.020-0.060	0.020-0.050		0.0008-0.0050		1450-1700 MPa	≥1050 MPa	≥5%		42-49 HRC				Standard Specifications	Press hardening steel for automotive	Press Hardening Steel		
+34MnB5			Automotive specification	0.30-0.37	1.15-1.45	0.15-0.35	≤0.010	≤0.025	0.14-0.26							0.020-0.060	0.020-0.050		0.0008-0.0050		1500-1800 MPa	≥1100 MPa	≥4%		45-52 HRC				Standard Specifications	Ultra high strength press hardening steel	Press Hardening Steel		
+C45+C			EN 10083-2:2006	0.42-0.50	0.50-0.80	≤0.40	≤0.045	≤0.045													700-850 MPa	≥490 MPa	≥14%		205-255 HB				Standard Specifications	Normalized carbon steel	Carbon Steel		
+C45R			EN 10083-2:2006	0.42-0.50	0.50-0.80	≤0.40	≤0.045	≤0.045													630-780 MPa	≥430 MPa	≥16%		190-230 HB				Standard Specifications	Hot rolled carbon steel	Carbon Steel		
+C50			EN 10083-2:2006	0.47-0.55	0.60-0.90	≤0.40	≤0.045	≤0.045													700-850 MPa	≥490 MPa	≥14%		205-255 HB				Standard Specifications	Medium carbon steel	Carbon Steel		
+C55			EN 10083-2:2006	0.52-0.60	0.60-0.90	≤0.40	≤0.045	≤0.045													700-850 MPa	≥490 MPa	≥14%		205-255 HB				Standard Specifications	Medium carbon steel	Carbon Steel		
+C60			EN 10083-2:2006	0.57-0.65	0.60-0.90	≤0.40	≤0.045	≤0.045													750-900 MPa	≥520 MPa	≥12%		220-260 HB				Standard Specifications	High carbon steel	Carbon Steel		
+C100			EN 10083-2:2006	0.95-1.05	0.30-0.60	0.15-0.35	≤0.045	≤0.045													850-1000 MPa	≥580 MPa	≥8%		255-300 HB				Standard Specifications	High carbon tool steel	Carbon Steel		
+CR210IF			Automotive specification	≤0.005	≤0.30	≤0.10	≤0.015	≤0.020								0.020-0.100	≤0.15	≤0.09			270-350 MPa	≥210 MPa	≥34%						Standard Specifications	Interstitial free automotive steel	IF Steel		
+CR180BH			Automotive specification	≤0.01	≤0.60	≤0.10	≤0.015	0.010-0.060								0.020-0.100	≤0.15	≤0.09			300-380 MPa	≥180 MPa	≥36%						Standard Specifications	Bake hardening automotive steel	BH Steel		
+CR210			Automotive specification	≤0.12	≤0.70	≤0.50	≤0.015	≤0.025								0.015-0.070					340-420 MPa	≥210 MPa	≥32%						Standard Specifications	Cold rolled automotive steel	Cold Rolled Steel		
+CR300LA			Automotive specification	≤0.12	0.70-1.20	≤0.50	≤0.015	≤0.025								0.015-0.070					380-480 MPa	≥300 MPa	≥27%						Standard Specifications	Cold rolled high strength low alloy	HSLA Steel		
+CR380LA			Automotive specification	≤0.12	0.70-1.40	≤0.50	≤0.015	≤0.025				≤0.20				0.015-0.070	≤0.15	≤0.09			450-580 MPa	≥380 MPa	≥23%						Standard Specifications	Cold rolled high strength low alloy	HSLA Steel		
+CR420LA			Automotive specification	≤0.12	0.70-1.60	≤0.50	≤0.015	≤0.025				≤0.20				0.015-0.070	≤0.15	≤0.09			480-620 MPa	≥420 MPa	≥21%						Standard Specifications	Cold rolled high strength low alloy	HSLA Steel		
+CR460			Automotive specification	≤0.12	0.80-1.80	≤0.50	≤0.015	≤0.025				≤0.20				0.015-0.070	≤0.15	≤0.09			520-670 MPa	≥460 MPa	≥19%						Standard Specifications	Cold rolled high strength	HSLA Steel		
+CR460LA			Automotive specification	≤0.12	0.80-1.80	≤0.50	≤0.015	≤0.025				≤0.20				0.015-0.070	≤0.15	≤0.09			520-670 MPa	≥460 MPa	≥21%						Standard Specifications	Cold rolled high strength low alloy	HSLA Steel		
+CR440Y780T DP			Automotive specification	0.06-0.15	1.50-2.50	0.10-0.50	≤0.015	≤0.080	≤0.40		≤0.20					0.020-0.070					780-980 MPa	≥440 MPa	≥14%						Standard Specifications	Dual phase automotive steel	Dual Phase Steel		
+CR440Y780T-DP			Automotive specification	0.06-0.15	1.50-2.50	0.10-0.50	≤0.015	≤0.080	≤0.40		≤0.20					0.020-0.070					780-980 MPa	≥440 MPa	≥14%						Standard Specifications	Dual phase automotive steel	Dual Phase Steel		
+CR330Y590T			Automotive specification	0.05-0.12	1.20-2.00	0.10-0.50	≤0.015	≤0.080	≤0.30		≤0.15					0.020-0.070					590-710 MPa	≥330 MPa	≥22%						Standard Specifications	Dual phase automotive steel	Dual Phase Steel		
+CR440Y780T			Automotive specification	0.06-0.15	1.50-2.50	0.10-0.50	≤0.015	≤0.080	≤0.40		≤0.20					0.020-0.070					780-980 MPa	≥440 MPa	≥14%						Standard Specifications	Dual phase automotive steel	Dual Phase Steel		
+11SMn30			EN 10087:1999	0.08-0.15	0.90-1.30	≤0.05	0.27-0.33	≤0.11													500-700 MPa	≥320 MPa	≥10%		150-200 HB				Standard Specifications	Free machining steel	Free Machining Steel		
+16MnCrS5			EN 10084:2008	0.14-0.19	1.00-1.30	≤0.40	0.020-0.040	≤0.035	0.80-1.10												900-1200 MPa	≥650 MPa	≥10%		58-64 HRC (case)				Standard Specifications	Case hardening steel	Case Hardening Steel		
+16Mo3			EN 10028-2:2017	0.12-0.20	0.40-0.90	0.15-0.50	≤0.010	≤0.025	≤0.30		0.25-0.35										450-600 MPa	≥275 MPa	≥22%			≥27J at 20°C			Standard Specifications	Pressure vessel steel	Pressure Vessel Steel		
+CR4			Automotive specification	≤0.12	≤0.60		≤0.045	≤0.045													270-410 MPa	≤280 MPa	≥28%						Standard Specifications	Cold rolled forming steel	Cold Rolled Steel		
+S235			EN 10025-2:2019	≤0.17	≤1.40	≤0.40	≤0.035	≤0.035												≤0.012	360-510 MPa	≥235 MPa	≥26%						Standard Specifications	General structural steel	Structural Steel		
+S275			EN 10025-2:2019	≤0.21	≤1.50	≤0.40	≤0.035	≤0.035												≤0.012	410-560 MPa	≥275 MPa	≥23%						Standard Specifications	General structural steel	Structural Steel		
+S355J2			EN 10025-2:2019	≤0.20	≤1.60	≤0.55	≤0.030	≤0.030												≤0.012	470-630 MPa	≥355 MPa	≥22%			27J at -20°C			Standard Specifications	Structural steel with improved impact properties	Structural Steel		
+S355J2+N			EN 10025-2:2019	≤0.20	≤1.60	≤0.55	≤0.030	≤0.030												≤0.012	470-630 MPa	≥355 MPa	≥22%			27J at -20°C			Standard Specifications	Normalized structural steel	Structural Steel		
+S420			EN 10025-3:2019	≤0.20	1.00-1.70	≤0.50	≤0.025	≤0.030	≤0.30	≤0.50	≤0.10										520-680 MPa	≥420 MPa	≥19%						Standard Specifications	High strength structural steel	High Strength Steel		
+S460			EN 10025-3:2019	≤0.20	1.00-1.70	≤0.50	≤0.025	≤0.030	≤0.30	≤0.50	≤0.10										540-720 MPa	≥460 MPa	≥17%						Standard Specifications	High strength structural steel	High Strength Steel		
+S420MC			EN 10149-2:2013	≤0.12	≤1.60	≤0.50	≤0.015	≤0.025				≤0.20				≥0.015	≤0.15	≤0.09			480-620 MPa	≥420 MPa	≥19%						Standard Specifications	Cold forming microalloyed steel	Microalloyed Steel	≤0.22	
+S460MC			EN 10149-2:2013	≤0.12	≤1.70	≤0.50	≤0.015	≤0.025				≤0.20				≥0.015	≤0.15	≤0.09			520-670 MPa	≥460 MPa	≥17%						Standard Specifications	Cold forming microalloyed steel	Microalloyed Steel	≤0.22	
+S550MC			EN 10149-2:2013	≤0.12	≤1.80	≤0.50	≤0.015	≤0.025				≤0.20				≥0.015	≤0.15	≤0.09			600-760 MPa	≥550 MPa	≥15%						Standard Specifications	Cold forming microalloyed steel	Microalloyed Steel	≤0.22	
+S600MC			EN 10149-2:2013	≤0.12	≤1.90	≤0.50	≤0.015	≤0.025				≤0.20				≥0.015	≤0.15	≤0.09			650-820 MPa	≥600 MPa	≥13%						Standard Specifications	Cold forming microalloyed steel	Microalloyed Steel	≤0.22	
+S650MC			EN 10149-2:2013	≤0.12	≤2.00	≤0.60	≤0.015	≤0.025				≤0.20				≥0.015	≤0.15	≤0.09			700-880 MPa	≥650 MPa	≥12%						Standard Specifications	Cold forming microalloyed steel	Microalloyed Steel	≤0.22	
+S220GD			EN 10346:2015	≤0.13	≤0.60		≤0.045	≤0.100								≥0.010					300-480 MPa	≥220 MPa	≥20%						Standard Specifications	Structural galvanized steel	Galvanized Steel		Hot-dip galvanized
+S280GD			EN 10346:2015	≤0.20	≤0.90		≤0.045	≤0.100								≥0.010					360-510 MPa	≥280 MPa	≥18%						Standard Specifications	Structural galvanized steel	Galvanized Steel		Hot-dip galvanized
+S320GD			EN 10346:2015	≤0.20	≤1.20		≤0.045	≤0.100								≥0.010					390-540 MPa	≥320 MPa	≥17%						Standard Specifications	Structural galvanized steel	Galvanized Steel		Hot-dip galvanized
+S450GD			EN 10346:2015	≤0.25	≤1.60		≤0.045	≤0.120								≥0.010					520-670 MPa	≥450 MPa	≥14%						Standard Specifications	High strength galvanized steel	Galvanized Steel		Hot-dip galvanized
+S550GD			EN 10346:2015	≤0.25	≤1.60		≤0.045	≤0.120								≥0.010					600-760 MPa	≥550 MPa	≤12%						Standard Specifications	High strength galvanized steel	Galvanized Steel		Hot-dip galvanized
+DC02			EN 10130:2006	≤0.10	≤0.45		≤0.035	≤0.035													270-380 MPa	≤240 MPa	≥32%						Standard Specifications	Cold rolled drawing quality	Cold Rolled Steel		
+DC05			EN 10130:2006	≤0.06	≤0.35		≤0.025	≤0.025													270-330 MPa	≤180 MPa	≥40%						Standard Specifications	Extra deep drawing quality	Cold Rolled Steel		
+DD12			EN 10111:2008	≤0.10	≤0.45		≤0.035	≤0.035													270-410 MPa	≤280 MPa	≥28%						Standard Specifications	Drawing quality steel	Cold Rolled Steel		
+P265GH			EN 10028-2:2017	≤0.20	0.80-1.40	≤0.40	≤0.010	≤0.025	≤0.30	≤0.30	≤0.08	≤0.02				≥0.020		≤0.05		≤0.012	410-570 MPa	≥265 MPa	≥22%			≥27J at 20°C			Standard Specifications	Pressure vessel steel	Pressure Vessel Steel		
+DP800			Automotive specification	0.08-0.15	1.80-2.50	0.15-0.50	≤0.015	≤0.080	≤0.50		≤0.25					0.020-0.070					800-1000 MPa	≥450 MPa	≥14%						Standard Specifications	Dual phase automotive steel	Dual Phase Steel		
+Hardox 450			SSAB specification	≤0.35	≤1.60	≤0.70	≤0.010	≤0.025	≤1.40	≤2.00	≤0.60								≤0.005		1250-1550 MPa	≥1200 MPa			425-475 HB				Standard Specifications	Wear resistant steel	Wear Resistant Steel		
+S235JRG2			EN 10025-2:2019	≤0.17	≤1.40	≤0.40	≤0.035	≤0.035												≤0.012	360-510 MPa	≥235 MPa	≥26%			27J at 20°C			Standard Specifications	General structural steel with guaranteed impact properties	Structural Steel		
+S280			EN 10025-2:2019	≤0.21	≤1.50	≤0.40	≤0.035	≤0.035													410-560 MPa	≥280 MPa	≥23%						Standard Specifications	Structural steel	Structural Steel		
+S350			EN 10025-2:2019	≤0.23	≤1.60	≤0.55	≤0.035	≤0.035													470-630 MPa	≥350 MPa	≥22%						Standard Specifications	Structural steel	Structural Steel		
+S450			EN 10025-3:2019	≤0.20	1.00-1.70	≤0.50	≤0.025	≤0.030													550-720 MPa	≥450 MPa	≥17%						Standard Specifications	High strength structural steel	High Strength Steel		
+S500			EN 10025-3:2019	≤0.20	1.00-1.70	≤0.50	≤0.025	≤0.030													590-770 MPa	≥500 MPa	≥16%						Standard Specifications	High strength structural steel	High Strength Steel		
+S550			EN 10025-3:2019	≤0.20	1.00-1.70	≤0.50	≤0.025	≤0.030													640-820 MPa	≥550 MPa	≥15%						Standard Specifications	High strength structural steel	High Strength Steel		
+S260MC			EN 10149-2:2013	≤0.12	≤1.30	≤0.50	≤0.015	≤0.025				≤0.20				≥0.015	≤0.15	≤0.09			350-430 MPa	≥260 MPa	≥27%						Standard Specifications	Cold forming microalloyed steel	Microalloyed Steel		
+S315MC			EN 10149-2:2013	≤0.12	≤1.40	≤0.50	≤0.015	≤0.025				≤0.20				≥0.015	≤0.15	≤0.09			390-510 MPa	≥315 MPa	≥24%						Standard Specifications	Cold forming microalloyed steel	Microalloyed Steel		
+S320MC			EN 10149-2:2013	≤0.12	≤1.40	≤0.50	≤0.015	≤0.025				≤0.20				≥0.015	≤0.15	≤0.09			400-520 MPa	≥320 MPa	≥23%						Standard Specifications	Cold forming microalloyed steel	Microalloyed Steel		
+S355MC			EN 10149-2:2013	≤0.12	≤1.50	≤0.50	≤0.015	≤0.025				≤0.20				≥0.015	≤0.15	≤0.09			430-550 MPa	≥355 MPa	≥22%						Standard Specifications	Cold forming microalloyed steel	Microalloyed Steel		
+S380MC			EN 10149-2:2013	≤0.12	≤1.50	≤0.50	≤0.015	≤0.025				≤0.20				≥0.015	≤0.15	≤0.09			450-590 MPa	≥380 MPa	≥21%						Standard Specifications	Cold forming microalloyed steel	Microalloyed Steel		
+S350G			EN 10346:2015	≤0.25	≤1.50		≤0.045	≤0.120								≥0.010					420-580 MPa	≥350 MPa	≥16%						Standard Specifications	Galvanized structural steel	Galvanized Steel		Hot-dip galvanized
+DX51			EN 10346:2015	≤0.12	≤0.60		≤0.045	≤0.120								≥0.010					270-500 MPa	≤350 MPa	≥22%						Standard Specifications	Galvanized steel for forming	Galvanized Steel		Hot-dip galvanized
+DX52			EN 10346:2015	≤0.10	≤0.45		≤0.035	≤0.100								≥0.010					270-420 MPa	≤300 MPa	≥26%						Standard Specifications	Galvanized steel for deep drawing	Galvanized Steel		Hot-dip galvanized
+DX53			EN 10346:2015	≤0.08	≤0.40		≤0.030	≤0.080								≥0.010					270-380 MPa	≤260 MPa	≥30%						Standard Specifications	Galvanized steel for extra deep drawing	Galvanized Steel		Hot-dip galvanized
+DX54D			EN 10346:2015	≤0.06	≤0.35		≤0.025	≤0.060								≥0.010					270-350 MPa	≤220 MPa	≥36%						Standard Specifications	Galvanized ultra deep drawing	Galvanized Steel		Hot-dip galvanized
+DX55			EN 10346:2015	≤0.04	≤0.30		≤0.020	≤0.040								≥0.010					270-330 MPa	≤200 MPa	≥38%						Standard Specifications	Galvanized ultra deep drawing	Galvanized Steel		Hot-dip galvanized
+DX56			EN 10346:2015	≤0.02	≤0.25		≤0.015	≤0.020								≥0.010					270-310 MPa	≤180 MPa	≥40%						Standard Specifications	Galvanized ultra deep drawing	Galvanized Steel		Hot-dip galvanized
+DX56D			EN 10346:2015	≤0.02	≤0.25		≤0.015	≤0.020								≥0.010					270-310 MPa	≤180 MPa	≥40%						Standard Specifications	Galvanized ultra deep drawing	Galvanized Steel		Hot-dip galvanized
+DC01AM			Automotive specification	≤0.12	≤0.60		≤0.045	≤0.045													270-410 MPa	≤280 MPa	≥28%						Standard Specifications	Cold rolled steel with anti-fingerprint coating	Cold Rolled Steel		
+DC01ED			Automotive specification	≤0.12	≤0.60		≤0.045	≤0.045													270-410 MPa	≤280 MPa	≥28%						Standard Specifications	Cold rolled steel with electro-deposition treatment	Cold Rolled Steel		
+DC01EK			Automotive specification	≤0.12	≤0.60		≤0.045	≤0.045													270-410 MPa	≤280 MPa	≥28%						Standard Specifications	Cold rolled steel with electrolytic coating	Cold Rolled Steel		
+DC03ED			Automotive specification	≤0.10	≤0.45		≤0.030	≤0.030													270-370 MPa	≤210 MPa	≥34%						Standard Specifications	Deep drawing steel with electro-deposition treatment	Cold Rolled Steel		
+DC03EK			Automotive specification	≤0.10	≤0.45		≤0.030	≤0.030													270-370 MPa	≤210 MPa	≥34%						Standard Specifications	Deep drawing steel with electrolytic coating	Cold Rolled Steel		
+EK			Automotive specification	≤0.12	≤0.60		≤0.045	≤0.045													270-410 MPa	≤280 MPa	≥28%						Standard Specifications	Electrolytic coating steel	Cold Rolled Steel		
+HC180			Automotive specification	≤0.10	≤0.50	≤0.50	≤0.015	≤0.025								0.015-0.070					300-380 MPa	≥180 MPa	≥34%						Standard Specifications	Automotive high strength low alloy	HSLA Steel		
+HC220B			Automotive specification	≤0.01	≤0.60	≤0.10	≤0.015	0.010-0.060								0.020-0.100					340-420 MPa	≥220 MPa	≥32%						Standard Specifications	Bake hardening automotive steel	BH Steel		
+HC260LA			Automotive specification	≤0.10	0.40-0.80	≤0.50	≤0.015	≤0.025								0.015-0.070					350-450 MPa	≥260 MPa	≥29%						Standard Specifications	Automotive high strength low alloy	HSLA Steel		
+HC260LAD			Automotive specification	≤0.10	0.40-0.80	≤0.50	≤0.015	≤0.025								0.015-0.070					350-450 MPa	≥260 MPa	≥31%						Standard Specifications	Automotive HSLA with improved drawability	HSLA Steel		
+HC260Y			Automotive specification	≤0.10	0.40-0.80	≤0.50	≤0.015	≤0.025								0.015-0.070					350-450 MPa	≥260 MPa	≥27%						Standard Specifications	Automotive high yield strength steel	HSLA Steel		
+HC300			Automotive specification	≤0.12	0.60-1.00	≤0.50	≤0.015	≤0.025								0.015-0.070					380-480 MPa	≥300 MPa	≥25%						Standard Specifications	Automotive high strength steel	HSLA Steel		
+HC340			Automotive specification	≤0.12	0.70-1.20	≤0.50	≤0.015	≤0.025								0.015-0.070					410-510 MPa	≥340 MPa	≥24%						Standard Specifications	Automotive high strength steel	HSLA Steel		
+HC340LA			Automotive specification	≤0.12	0.70-1.20	≤0.50	≤0.015	≤0.025								0.015-0.070					410-510 MPa	≥340 MPa	≥26%						Standard Specifications	Automotive high strength low alloy	HSLA Steel		
+HC380LA			Automotive specification	≤0.12	0.70-1.40	≤0.50	≤0.015	≤0.025								0.015-0.070					450-580 MPa	≥380 MPa	≥23%						Standard Specifications	Automotive high strength low alloy	HSLA Steel		
+HC380La			Automotive specification	≤0.12	0.70-1.40	≤0.50	≤0.015	≤0.025								0.015-0.070					450-580 MPa	≥380 MPa	≥23%						Standard Specifications	Automotive high strength low alloy (variant)	HSLA Steel		
+HC500LA			Automotive specification	≤0.12	0.80-1.60	≤0.50	≤0.015	≤0.025				≤0.20				0.015-0.070	≤0.15	≤0.09			550-700 MPa	≥500 MPa	≥19%						Standard Specifications	Automotive high strength low alloy	HSLA Steel		
+HC550LA			Automotive specification	≤0.12	0.80-1.80	≤0.50	≤0.015	≤0.025				≤0.20				0.015-0.070	≤0.15	≤0.09			600-760 MPa	≥550 MPa	≥17%						Standard Specifications	Automotive high strength low alloy	HSLA Steel		
+95Cr1			DIN 17230	0.90-1.05	0.25-0.45	0.15-0.35			0.40-0.60												850-1000 MPa				255-300 HB				Standard Specifications	Tool steel	Tool Steel		
+Cf53			DIN 17200	0.50-0.60	0.60-0.90	≤0.40															700-850 MPa								Standard Specifications	Carbon steel	Carbon Steel		
+C1000S			Automotive specification	0.95-1.05	0.30-0.60	0.15-0.35															850-1000 MPa								Standard Specifications	High carbon steel	Carbon Steel		
+St22			DIN 17100	≤0.17	≤0.50																340-470 MPa	≥215 MPa							Standard Specifications	General structural steel	Structural Steel		
+A11			ASTM A29	0.95-1.10	1.00-1.30																900-1100 MPa								Standard Specifications	Tool steel	Tool Steel		
+A182 F22			ASTM A182	0.05-0.15	0.30-0.60	0.50			2.00-2.50		0.87-1.13										415 MPa	205 MPa							Standard Specifications	Alloy steel forging	Alloy Steel		
+IPE			EN 10365:2017	≤0.24	≤1.60	≤0.55															470-630 MPa	≥355 MPa							Standard Specifications	I-beam structural section	Structural Section		
+IPE330			EN 10365:2017	≤0.24	≤1.60	≤0.55															470-630 MPa	≥355 MPa							Standard Specifications	IPE330 I-beam structural section	Structural Section		
+HEA			EN 10365:2017	≤0.24	≤1.60	≤0.55															470-630 MPa	≥355 MPa							Standard Specifications	HEA wide flange beam	Structural Section		
+HEB			EN 10365:2017	≤0.24	≤1.60	≤0.55															470-630 MPa	≥355 MPa							Standard Specifications	HEB wide flange beam	Structural Section		
+IPN			EN 10365:2017	≤0.24	≤1.60	≤0.55															470-630 MPa	≥355 MPa							Standard Specifications	IPN narrow flange beam	Structural Section		
+H380LAD			Automotive specification	≤0.12	0.70-1.40	≤0.50	≤0.015	≤0.025								0.015-0.070					450-580 MPa	≥380 MPa	≥25%						Standard Specifications	Automotive HSLA with improved drawability	HSLA Steel		
+HE320D			Automotive specification	≤0.12	0.60-1.20	≤0.50	≤0.015	≤0.025								0.015-0.070					400-520 MPa	≥320 MPa	≥23%						Standard Specifications	Automotive high strength steel	HSLA Steel		
+HR550LA-HD50G50G			Automotive specification	≤0.12	0.80-1.80	≤0.50	≤0.015	≤0.025								0.015-0.070					600-760 MPa	≥550 MPa	≥17%						Standard Specifications	Hot rolled HSLA with galvanized coating	HSLA Steel		
+HCT590X			Automotive specification	0.05-0.12	1.20-2.00	0.10-0.50	≤0.015	≤0.080								0.020-0.070					590-710 MPa	≥330 MPa	≥22%						Standard Specifications	High strength automotive steel	AHSS Steel		
+HCT600X			Automotive specification	0.06-0.14	1.40-2.20	0.10-0.50	≤0.015	≤0.080								0.020-0.070					600-750 MPa	≥350 MPa	≥20%						Standard Specifications	High strength automotive steel	AHSS Steel		
+HCT780X			Automotive specification	0.07-0.15	1.80-2.50	0.15-0.50	≤0.015	≤0.080								0.020-0.070					780-980 MPa	≥420 MPa	≥17%						Standard Specifications	Ultra high strength automotive steel	AHSS Steel		
+HCT980XG			Automotive specification	0.10-0.17	2.00-2.80	0.20-0.60	≤0.015	≤0.080								0.020-0.070					980-1180 MPa	≥550 MPa	≥12%						Standard Specifications	Ultra high strength galvanized automotive steel	AHSS Steel		
+CR590Y980T-DP			Automotive specification	0.08-0.16	1.80-2.60	0.15-0.50	≤0.015	≤0.080								0.020-0.070					980-1180 MPa	≥590 MPa	≥12%						Standard Specifications	Ultra high strength dual phase steel	Dual Phase Steel		
+CR700Y980T-DP			Automotive specification	0.10-0.17	2.00-2.80	0.20-0.60	≤0.015	≤0.080								0.020-0.070					980-1180 MPa	≥700 MPa	≥10%						Standard Specifications	Ultra high strength dual phase steel	Dual Phase Steel		
+DX			EN 10346:2015	≤0.12	≤0.60		≤0.045	≤0.120								≥0.010					270-500 MPa								Standard Specifications	Generic galvanized steel designation	Galvanized Steel		
+MC			EN 10149:2013	≤0.12	≤1.70	≤0.50	≤0.015	≤0.025								≥0.015					350-950 MPa								Standard Specifications	Generic microalloyed steel designation	Microalloyed Steel		
+S355J2C			EN 10025-2:2019	≤0.20	≤1.60	≤0.55	≤0.025	≤0.025													470-630 MPa	≥355 MPa	≥22%			27J at -20°C			Standard Specifications	Structural steel with improved impact properties	Structural Steel		
+S355K2			EN 10025-3:2019	≤0.18	1.00-1.60	≤0.55	≤0.025	≤0.025													470-630 MPa	≥355 MPa	≥22%			40J at -20°C			Standard Specifications	Normalized fine grain structural steel	Structural Steel		
+S355K2+N			EN 10025-3:2019	≤0.18	1.00-1.60	≤0.55	≤0.025	≤0.025													470-630 MPa	≥355 MPa	≥22%			40J at -20°C			Standard Specifications	Normalized fine grain structural steel	Structural Steel		
+X			Generic designation	Variable	Variable	Variable															Variable								Standard Specifications	Generic steel designation	Generic Steel		
+HX180YD			Automotive specification	≤0.10	≤0.50	≤0.50	≤0.015	≤0.025								0.015-0.070					300-380 MPa	≥180 MPa	≥34%						Standard Specifications	Automotive high strength steel with improved drawability	HSLA Steel		
+HX260LAD			Automotive specification	≤0.10	0.40-0.80	≤0.50	≤0.015	≤0.025								0.015-0.070					350-450 MPa	≥260 MPa	≥31%						Standard Specifications	Automotive HSLA with improved drawability	HSLA Steel		
+HX300			Automotive specification	≤0.12	0.60-1.00	≤0.50	≤0.015	≤0.025								0.015-0.070					380-480 MPa	≥300 MPa	≥25%						Standard Specifications	Automotive high strength steel	HSLA Steel		
+HX300LAD			Automotive specification	≤0.12	0.60-1.00	≤0.50	≤0.015	≤0.025								0.015-0.070					380-480 MPa	≥300 MPa	≥27%						Standard Specifications	Automotive HSLA with improved drawability	HSLA Steel		
+HX340LAD			Automotive specification	≤0.12	0.70-1.20	≤0.50	≤0.015	≤0.025								0.015-0.070					410-510 MPa	≥340 MPa	≥26%						Standard Specifications	Automotive HSLA with improved drawability	HSLA Steel		
+HX380			Automotive specification	≤0.12	0.70-1.40	≤0.50	≤0.015	≤0.025								0.015-0.070					450-580 MPa	≥380 MPa	≥23%						Standard Specifications	Automotive high strength steel	HSLA Steel		
+HX420			Automotive specification	≤0.12	0.70-1.60	≤0.50	≤0.015	≤0.025								0.015-0.070					480-620 MPa	≥420 MPa	≥21%						Standard Specifications	Automotive high strength steel	HSLA Steel		
+HX420LAD			Automotive specification	≤0.12	0.70-1.60	≤0.50	≤0.015	≤0.025								0.015-0.070					480-620 MPa	≥420 MPa	≥23%						Standard Specifications	Automotive HSLA with improved drawability	HSLA Steel		
