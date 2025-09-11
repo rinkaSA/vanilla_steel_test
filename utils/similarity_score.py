@@ -11,16 +11,18 @@ DIM_BASES = [
 CAT_FIELDS = ["coating", "finish", "surface_type", "surface_protection", "form"]
 
 RM_COL = "Tensile strength (Rm)_mid"
-CP_TOLERANCE = 0.10  
 
-W_DIM, W_CAT, W_CP = 0.60, 0.30, 0.10
-
-GRADE_MULT_EXACT = 1.00
-GRADE_MULT_SAME_BASE = 0.95
-GRADE_MULT_DIFF_BASE = 0.85
-
-CATEGORY_MATCH_MULT = 1.00
-CATEGORY_FALLBACK_MULT = 0.50
+DEFAULT_CONFIG = {
+    "w_dim": 0.60,
+    "w_cat": 0.30,
+    "w_cp": 0.10,
+    "cp_tolerance": 0.10,
+    "grade_mult_exact": 1.00,
+    "grade_mult_same_base": 0.95,
+    "grade_mult_diff_base": 0.85,
+    "category_match_mult": 1.00,
+    "category_fallback_mult": 0.50,
+}
 
 
 def _as_num_pair(iv):
@@ -133,31 +135,35 @@ def cat_score_ignore_missing(q_row, c_row):
     return float(np.mean(vals)), matches, all_equal
 
 
-def grade_tier_multiplier(q_row, c_row):
+def grade_tier_multiplier(q_row, c_row, cfg: dict | None = None):
     """
     *1.0 exact grade (grade + suffix) match,
     *0.95 same grade_base,
     *0.85 otherwise.
     Returns: (multiplier, exact_grade_bool, same_base_bool)
     """
+    cfg = (DEFAULT_CONFIG if cfg is None else {**DEFAULT_CONFIG, **cfg})
     qg = ((str(q_row.get("grade")) if pd.notna(q_row.get("grade")) else "") + "|" +
           (str(q_row.get("grade_suffix")) if pd.notna(q_row.get("grade_suffix")) else ""))
     cg = ((str(c_row.get("grade")) if pd.notna(c_row.get("grade")) else "") + "|" +
           (str(c_row.get("grade_suffix")) if pd.notna(c_row.get("grade_suffix")) else ""))
     if qg and cg and qg == cg:
-        return GRADE_MULT_EXACT, True, True
+        return cfg["grade_mult_exact"], True, True
     qb, cb = q_row.get("grade_base"), c_row.get("grade_base")
     same_base = (pd.notna(qb) and pd.notna(cb) and qb == cb)
-    return (GRADE_MULT_SAME_BASE if same_base else GRADE_MULT_DIFF_BASE), False, same_base
+    return (cfg["grade_mult_same_base"] if same_base else cfg["grade_mult_diff_base"]), False, same_base
 
 
-def cp_score_rm_binary(q_row, c_row, tolerance=CP_TOLERANCE):
+def cp_score_rm_binary(q_row, c_row, tolerance: float | None = None, cfg: dict | None = None):
     """
     CP based only on Tensile strength (Rm)_mid.
     If both present:
       CP = 1 when relative diff <= tolerance, else 0.
     If either missing: CP = 0.30 (fallback).
     """
+    if tolerance is None:
+        cfg = (DEFAULT_CONFIG if cfg is None else {**DEFAULT_CONFIG, **cfg})
+        tolerance = cfg["cp_tolerance"]
     qa = pd.to_numeric(q_row.get(RM_COL), errors="coerce")
     ca = pd.to_numeric(c_row.get(RM_COL), errors="coerce")
     if pd.isna(qa) or pd.isna(ca):
@@ -170,30 +176,35 @@ def cp_score_rm_binary(q_row, c_row, tolerance=CP_TOLERANCE):
     return 1.0 if rel_diff <= tolerance else 0.0
 
 
-def score_pair(q_row, c_row, allow_category_fallback=False):
+def score_pair(q_row, c_row, allow_category_fallback: bool = False, cfg: dict | None = None):
+    """
+    Compute similarity components and final score for a query-candidate pair.
+    cfg allows ablations: weights (w_dim, w_cat, w_cp), multipliers, cp_tolerance.
+    """
+    cfg = (DEFAULT_CONFIG if cfg is None else {**DEFAULT_CONFIG, **cfg})
     # Category gate / multiplier
     cat_q, cat_c = q_row.get("Category"), c_row.get("Category")
     if pd.isna(cat_q) or pd.isna(cat_c):
         if not allow_category_fallback: 
             return None
-        category_multiplier = 0.50
+        category_multiplier = cfg["category_fallback_mult"]
     else:
         if cat_q != cat_c and not allow_category_fallback:
             return None
-        category_multiplier = 1.00 if cat_q == cat_c else 0.50
+        category_multiplier = cfg["category_match_mult"] if cat_q == cat_c else cfg["category_fallback_mult"]
 
     # Grade tier
-    gmult, exact_grade, same_base = grade_tier_multiplier(q_row, c_row)
+    gmult, exact_grade, same_base = grade_tier_multiplier(q_row, c_row, cfg)
 
     # Dimensions & surface
     S_dim, used_dims = dim_score(q_row, c_row)
     S_cat, _matches, _ = cat_score_ignore_missing(q_row, c_row)
 
     # CP (binary on Rm_mid with 0.30 fallback)
-    CP = cp_score_rm_binary(q_row, c_row)
+    CP = cp_score_rm_binary(q_row, c_row, cfg=cfg)
 
     # Final
-    final = category_multiplier * gmult * (0.60*S_dim + 0.30*S_cat + 0.10*CP)
+    final = category_multiplier * gmult * (cfg["w_dim"]*S_dim + cfg["w_cat"]*S_cat + cfg["w_cp"]*CP)
 
     return {
         "final_score": final,
@@ -209,7 +220,7 @@ def score_pair(q_row, c_row, allow_category_fallback=False):
 
 
 
-def rank_similar_rfqs(joined_df, query_id, top_k=3, allow_category_fallback=False):
+def rank_similar_rfqs(joined_df, query_id, top_k: int = 3, allow_category_fallback: bool = False, cfg: dict | None = None):
     q_row_df = joined_df.loc[joined_df["id"] == query_id]
     if q_row_df.empty:
         raise ValueError(f"RFQ id {query_id} not found.")
@@ -229,7 +240,7 @@ def rank_similar_rfqs(joined_df, query_id, top_k=3, allow_category_fallback=Fals
         for _, c in frame.iterrows():
             if c["id"] == query_id:     # safety (should already be excluded)
                 continue
-            res = score_pair(q_row, c.to_dict(), allow_category_fallback=allow_category_fallback)
+            res = score_pair(q_row, c.to_dict(), allow_category_fallback=allow_category_fallback, cfg=cfg)
             if res is None:
                 continue
             rows.append({"query_id": query_id, "candidate_id": c["id"], **res})
@@ -248,7 +259,7 @@ def rank_similar_rfqs(joined_df, query_id, top_k=3, allow_category_fallback=Fals
 
 
 
-def top3_for_all(joined_df, allow_category_fallback=False, top_k=3):
+def top3_for_all(joined_df, allow_category_fallback: bool = False, top_k: int = 3, cfg: dict | None = None):
     """
     For each RFQ, compute top-k similar RFQs (exclude same id).
     Returns a tidy DataFrame with only the essentials.
@@ -257,7 +268,7 @@ def top3_for_all(joined_df, allow_category_fallback=False, top_k=3):
     for qid in joined_df["id"].tolist():
         ranked = rank_similar_rfqs(
             joined_df, query_id=qid, top_k=top_k,
-            allow_category_fallback=allow_category_fallback
+            allow_category_fallback=allow_category_fallback, cfg=cfg
         )
         for rank, r in enumerate(ranked, start=1):
             out_rows.append({
@@ -271,3 +282,55 @@ def top3_for_all(joined_df, allow_category_fallback=False, top_k=3):
                 "dims_used": ", ".join(r["dims_used"]),
             })
     return pd.DataFrame(out_rows)
+
+
+# For Ablation analysis
+
+def run_topk_with_config(joined_df: pd.DataFrame, cfg: dict | None, name: str,
+                         top_k: int = 3, allow_category_fallback: bool = True) -> pd.DataFrame:
+    df = top3_for_all(joined_df, allow_category_fallback=allow_category_fallback, top_k=top_k, cfg=cfg)
+    df = df.copy()
+    df["config"] = name
+    return df
+
+
+def compare_topk(base_df: pd.DataFrame, var_df: pd.DataFrame, k: int = 3) -> pd.DataFrame:
+    """
+    Compare two top-k tables (from run_topk_with_config): per-query metrics.
+    Returns per-query rows with:
+      - jaccard_k: Jaccard similarity of top-k candidate sets
+      - top1_same: 1 if top-1 candidate is the same
+      - mean_rank_change: avg |rank_var - rank_base| over intersecting candidates (NaN if none)
+      - added: # of candidates in var but not in base
+      - removed: # of candidates in base but not in var
+    """
+    base = base_df[["query_id", "rank", "candidate_id"]].copy()
+    var = var_df[["query_id", "rank", "candidate_id"]].copy()
+
+    qids = sorted(set(base["query_id"]).union(set(var["query_id"])) )
+    rows = []
+    for q in qids:
+        b = base[base["query_id"] == q].sort_values("rank").head(k)
+        v = var[var["query_id"] == q].sort_values("rank").head(k)
+        b_ids = b["candidate_id"].tolist()
+        v_ids = v["candidate_id"].tolist()
+        inter = set(b_ids).intersection(v_ids)
+        union = set(b_ids).union(v_ids)
+        jacc = (len(inter) / len(union)) if union else np.nan
+        top1_same = int(len(b_ids) > 0 and len(v_ids) > 0 and b_ids[0] == v_ids[0])
+        # rank maps
+        b_ranks = {cid: int(rk) for cid, rk in zip(b["candidate_id"], b["rank"]) }
+        v_ranks = {cid: int(rk) for cid, rk in zip(v["candidate_id"], v["rank"]) }
+        if inter:
+            mean_rank_change = float(np.mean([abs(b_ranks[c]-v_ranks[c]) for c in inter]))
+        else:
+            mean_rank_change = np.nan
+        rows.append({
+            "query_id": q,
+            "jaccard_k": jacc,
+            "top1_same": top1_same,
+            "mean_rank_change": mean_rank_change,
+            "added": len(set(v_ids) - set(b_ids)),
+            "removed": len(set(b_ids) - set(v_ids)),
+        })
+    return pd.DataFrame(rows)
